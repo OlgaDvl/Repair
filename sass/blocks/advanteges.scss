@@ -1,0 +1,23 @@
+.advantages {
+  list-style: none;
+}
+.advantages__item {
+  padding: 24px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, .3);
+  border-right: 5px;
+  text-align: center;
+  margin-bottom: 24px;
+  // position: relative;
+  // z-index: 2;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.advantages__text {
+  font-size: px-to-rem(17px);
+  line-height: px-to-rem(24px);
+  margin: 10px 0 2px;
+}
